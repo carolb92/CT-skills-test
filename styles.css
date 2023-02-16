@@ -74,7 +74,8 @@ ul, li {
     align-items: center;
 }
 
-.number {
+.number,
+.team-number {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
     color: #414f6b; 
@@ -95,7 +96,8 @@ ul, li {
     margin: auto;
 }
 
-.lorem-text {
+.lorem-text,
+.team-lorem-text {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
@@ -134,7 +136,7 @@ ul, li {
     font-family: 'Oswald', sans-serif;
     color: #414f6b;
     display:inline-block;
-    transform: translate(58%, -35%);
+    transform: translate(58%, -45%);
 }
 
 .top {
@@ -166,12 +168,13 @@ ul, li {
         background-position: initial;
     }
 
-    .wrapper {
-        min-height: 15vh;
-        justify-content: flex-start;
+    .climb {
+        flex-wrap: nowrap;
+        align-items: center;
     }
 
-    .number {
+    .number,
+    .team-number {
         font-size:5rem;
     }
 
@@ -180,24 +183,10 @@ ul, li {
         transform: translateX(-10px);
     }
 
-    .text-wrapper {
-        width: 56%;
-        margin-top: -70px;
-    }
-
     .top {
         flex-flow: row nowrap;
         justify-content: center;
         width:100%;
-    }
-
-    .team-wrapper {
-        min-width:20vw;
-    }
-
-    .team-text-wrapper {
-        max-width: 55%;
-        padding-left:40px;
     }
 
     #team h1 {
@@ -223,7 +212,8 @@ ul, li {
         flex-flow:row wrap;
     }
 
-    .number {
+    .number,
+    .team-number {
         font-size: 10rem;
     }
 
@@ -238,7 +228,8 @@ ul, li {
         margin: 0 auto;
     }
 
-    .lorem-text {
+    .lorem-text,
+    .team-lorem-text {
         line-height: 1.25rem;
         font-size: 1.2rem;
     }
@@ -282,14 +273,4 @@ ul, li {
         margin-top: 20px;
     }
 
-    .team-text-wrapper {
-        min-width:55%;
-        padding:10px;
-        margin-top:30px;
-    }
-
-    .top .lorem-text {
-        margin-bottom: 0;
-        margin-left:15px;
-    }
 }
