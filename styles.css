@@ -154,13 +154,61 @@ ul, li {
     margin-bottom: 6px;
 }
 
-#nav-mountain-1 {
+#mountain-1 {
     background-image: url('/img/mountain-1.jpg');
     min-height: 45vh;
     background-position: center center;
     background-size: cover;
 }
 
+#mountain-2 {
+    background-image: url('/img/mountain-2.jpg');
+    min-height: 45vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav-tabs {
+    background-color:#414f6b;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+}
+
+.nav-tabs button {
+    color: #b0b4be !important;
+}
+
+/* 
+
+.nav-link {
+    
+    background-color:#414f6b;
+    
+}
+
+ */
+
+
+button[class~="active"] {
+    background-color:#b0b4be !important;
+    color: #414f6b !important;
+    text-decoration: underline;
+}
+
+.schedule {
+    max-width: 65%;
+    background-color:rgb(255, 255, 255, 0.6);
+}
+
+.schedule h2 {
+    font-family:'Oswald', sans-serif;
+    color: #414f6b;
+}
+
+.schedule p {
+    font-family:'Lato', sans-serif;
+    font-weight:lighter;
+}
 
 /****** TABLET STYLES ******/
 
