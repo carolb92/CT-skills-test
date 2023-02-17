@@ -87,45 +87,47 @@
                     </div>
                 </div>
             </div>
-            <nav>
-                <div class="nav nav-tabs flex-column flex-sm-row">
-                    <button class="nav-link active text-upper" id="nav-mountain-1-tab" data-bs-toggle="tab" data-bs-target="#mountain-1" type="button" role="tab" aria-controls="nav-mountain-1" aria-selected="true">MOUNTAIN 1</button>
-                    <button class="nav-link text-upper" id="nav-mountain-2-tab" data-bs-toggle="tab" data-bs-target="#mountain-2" type="button" role="tab" aria-controls="nav-mountain-2" aria-selected="false">MOUNTAIN 2</button>
+            <nav class="mountains-nav">
+                <div class="tab-wrapper">
+                    <div class="nav nav-tabs flex-column flex-sm-row justify-content-start">
+                        <button class="nav-link active text-upper" id="nav-mountain-1-tab" data-bs-toggle="tab" data-bs-target="#mountain-1" type="button" role="tab" aria-controls="nav-mountain-1" aria-selected="true">MOUNTAIN 1</button>
+                        <button class="nav-link text-upper" id="nav-mountain-2-tab" data-bs-toggle="tab" data-bs-target="#mountain-2" type="button" role="tab" aria-controls="nav-mountain-2" aria-selected="false">MOUNTAIN 2</button>
+                    </div>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
                 <div class="pt-4 tab-pane fade show active" id="mountain-1" role="tabpanel" aria-labelledby="nav-mountain-1-tab" tabindex="0">
                     <div class="container schedule py-3 px-4">
                         <h2 class="text-upper my-3">SCHEDULE</h2>
-                        <div class="row justify-content-center">
-                            <div class="col col-5">
+                        <div class="row">
+                            <div class="col col-5 col-md-4">
                                 <p>25 Nov 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col col-5">
+                        <div class="row">
+                            <div class="col col-5 col-md-4">
                                 <p>28 Nov 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col col-5">
+                        <div class="row">
+                            <div class="col col-5 col-md-4">
                                 <p>18 Dec 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col col-5">
+                        <div class="row">
+                            <div class="col col-5 col-md-4">
                                 <p>7 Jan 2017</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
@@ -135,34 +137,34 @@
                     <div class="container schedule py-3 px-4">
                         <h2 class="text-upper my-3">SCHEDULE</h2>
                         <div class="row">
-                            <div class="col col-5">
+                            <div class="col col-5 col-md-4">
                                 <p> 17 Nov 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col col-5">
+                            <div class="col col-5 col-md-4">
                                 <p>13 Dec 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col col-5">
+                            <div class="col col-5 col-md-4">
                                 <p>28 Dec 2016</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col col-5">
+                            <div class="col col-5 col-md-4">
                                 <p>9 Feb 2017</p>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-5">
                                 <p>Vestibulum viverra</p>
                             </div>
                         </div>
@@ -172,7 +174,22 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container-fluid background pt-3">
+            <div class="row">
+                <div class="col col-md-7">
+                    <img src="/img/text-logo.jpg" alt="Los Angeles Mountains logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid foreground p-3">
+            <div class="row">
+                <div class="col col-6 col-md-7">
+                    <p class="text-upper text-center mt-3">COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

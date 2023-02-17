@@ -116,20 +116,10 @@ ul, li {
     align-self:flex-end;
 }
 
-/* .swiper-wrapper {
-    justify-content: center;
-} */
-
 .swiper-slide {
     display: flex;
     justify-content: center;
 }
-
-/* .swiper-slide img {
-    display: block;
-    width: 80%;
-    object-fit: cover;
-} */
 
 #team h1 {
     font-size: 1.2rem;
@@ -152,6 +142,10 @@ ul, li {
     transform:translateX(65%);
     font-size: 2.75rem;
     margin-bottom: 6px;
+}
+
+.mountains-nav {
+    background-color: #414f6b;
 }
 
 #mountain-1 {
@@ -178,16 +172,10 @@ ul, li {
     color: #b0b4be !important;
 }
 
-/* 
-
-.nav-link {
-    
-    background-color:#414f6b;
-    
+button {
+    border: none!important;
+    border-radius:initial!important;
 }
-
- */
-
 
 button[class~="active"] {
     background-color:#b0b4be !important;
@@ -208,6 +196,40 @@ button[class~="active"] {
 .schedule p {
     font-family:'Lato', sans-serif;
     font-weight:lighter;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    font-size:0.8rem;
+    font-style: italic;
+    position: relative;
+    min-height:8vh;
+}
+
+.background {
+    position:absolute;
+    z-index: -1;
+    min-height:8vh;
+}
+
+.background .row {
+    justify-content: space-evenly;
+}
+
+.foreground {
+    position: absolute;
+    background-color: #414f6b;
+    opacity:90%;
+    z-index:1;
+    min-height: 8vh;
+}
+
+.foreground .row {
+    justify-content: flex-end;
+}
+
+footer p {
+    color:#63769d;
 }
 
 /****** TABLET STYLES ******/
@@ -247,6 +269,17 @@ button[class~="active"] {
     #team h1 {
         font-size: 1.75rem;
         transform: translate(65%, -50%);
+    }
+
+    .tab-wrapper {
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .schedule {
+        max-width: 35%!important;
+        margin-left: 18%!important;
+        margin-top: 10%!important;
     }
 }
 
@@ -326,6 +359,25 @@ button[class~="active"] {
 
     .team-number {
         margin-top: 20px;
+    }
+
+    .schedule {
+        max-width: 22%!important;
+        margin-top: 5%!important;
+    }
+
+    .schedule .row {
+        justify-content: space-around;
+    }
+
+    .tab-content {
+        min-height:80vh;
+    }
+
+    #mountain-1,
+    #mountain-2 {
+        min-height: 80vh;
+        background-position: center;
     }
 
 }
