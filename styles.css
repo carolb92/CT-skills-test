@@ -154,6 +154,13 @@ ul, li {
     margin-bottom: 6px;
 }
 
+#nav-mountain-1 {
+    background-image: url('/img/mountain-1.jpg');
+    min-height: 45vh;
+    background-position: center center;
+    background-size: cover;
+}
+
 
 /****** TABLET STYLES ******/
 
