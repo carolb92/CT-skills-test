@@ -67,11 +67,12 @@ ul, li {
     flex-flow: row wrap;
 }
 
-.wrapper {
-    width: 56%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+.history-row {
+    flex-wrap:wrap;
+}
+
+.history-wrapper {
+    margin-left:7%;
 }
 
 .number,
@@ -88,7 +89,7 @@ ul, li {
     font-family: 'Oswald', sans-serif;
     color: #414f6b;
     display:inline-block;
-    transform: translate(-2px, -4px);
+    transform: translate(-13%, -35%);
 }
 
 .text-wrapper {
@@ -245,6 +246,20 @@ footer p {
         background-position: initial;
     }
 
+    #history h1 {
+        transform: translate(-16%, -50%)!important;
+    }
+
+    .history-row {
+        flex-direction:column;
+        width:85%;
+        margin: auto!important;
+    }
+
+    .history-text-wrapper {
+        margin-left: 10%!important;
+    }
+
     .climb {
         flex-wrap: nowrap;
         align-items: center;
@@ -307,7 +322,7 @@ footer p {
 
     #history h1 {
         font-size: 2.67rem;
-        transform: translate(-20px, 10px);
+        transform: translate(-25%, -60%)!important;
     }
 
     .text-wrapper {
