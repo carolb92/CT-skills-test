@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-    background-image: url('/img/hero.jpg');
+    background-image: url('img/hero.jpg');
     min-height: 45vh;
     background-position: center center;
     background-size: cover;
@@ -59,7 +59,7 @@ ul, li {
 }
 
 #history {
-    background-image: url('/img/history-bg.jpg');
+    background-image: url('img/history-bg.jpg');
     min-height: 45vh;
     background-position: center center;
     background-size: cover;
@@ -150,14 +150,14 @@ ul, li {
 }
 
 #mountain-1 {
-    background-image: url('/img/mountain-1.jpg');
+    background-image: url('img/mountain-1.jpg');
     min-height: 45vh;
     background-position: center center;
     background-size: cover;
 }
 
 #mountain-2 {
-    background-image: url('/img/mountain-2.jpg');
+    background-image: url('img/mountain-2.jpg');
     min-height: 45vh;
     background-position: center center;
     background-size: cover;
